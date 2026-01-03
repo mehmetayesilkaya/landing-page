@@ -34,3 +34,40 @@ body {
   color: #e5e7eb;
   text-decoration: none;
 }
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  align-items: center;
+  flex: 1;
+}
+
+.hero-title {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.hero-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-right {
+  flex: 1;
+}
+
+.hero-right img {
+  max-width: 50%;
+  height: auto;
+}
+
+.container-img-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15%;
+  gap: 50px;
+}
